@@ -1,0 +1,51 @@
+body {
+	background: #F8F8F8 url(images/fon.jpg) repeat;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 20px;
+	color: #800000;
+} 
+
+a {text-decoration:underline; color:blue;}
+a:hover {text-decoration:none; color:black;}
+
+img.left {float:left; margin:0 25px 30px 0;}
+
+#wrapper {width:1000px; margin:15px auto; background:#FFF8DC; border-radius:10px; overflow:hidden; box-shadow: 0 0 45px #DAA520 ;}
+
+h1{margin:0; text-transform:uppercase; font-weight:30px; color:black;}
+
+#logo {padding:15px; background:#D8D3B3; text-align:center;}
+
+#logo h1 {font-size: 30px; font-weight:bold;}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: black;
+}
+
+#menu {background:#556B2F;}
+
+#menu ul {margin:0; padding:10px; list-style:none;}
+
+#menu li {display:inline-block;}
+
+#menu a {
+	display: block;
+	padding: 25px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	color: #F5DEB3;
+}
+
+#menu a:hover {color:white;}
+
+h2 {margin:0; font-size:30px;}
+
+p {margin-bottom:20px;}
+
+#content {padding:35px; font-size:20px;}
+
+#footer {text-align:center;}
